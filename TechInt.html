@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Youthdify</title>
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav">
+    <img src="youthdifylogo.jpg" style="width:130px;position:absolute;margin-left: 5%;">
+    <div class="search-container">
+      <form action="Home.html" style="max-width:300px">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <form action="Home.html" style="max-width:300px"></form>
+      <button style="font-size:18px;position:absolute;right:30px;top:0px;"><i class='fa fa-user-circle-o'></i></button>
+  </div>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="Home.html">Home</a>
+   
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Profile</a>
+      <a href="#">Explore</a>
+      <a href="#">Notifications</a>
+      <a href="#">Groups</a>
+      <a href="#">Events</a>
+      <a href="#">Wishlists</a>
+      <a href="#">Held Center</a>
+      <a href="#">Resources</a>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+    <div class="icon">
+    <span onmouseover="openNav()">&#9776;</span>
+    </div>
+
+  </div>
+  <div class="nav"> 
+            <ul>
+              <div class="dropdown">
+                <li><button class="dropbtn" >Programme</button>
+                <div class="dropdown-content">
+                  <a href="Youth.html">Youth Engagement</a>
+                  <a href="TechInt.html">Tech Integration</a>
+                  <a href="Career.html">Career Pathways</a>
+                </div>
+              </div></li>
+              <li><a href="Resources.html">Resources</a></li>
+              <li><a href="Community1.html">Community</a></li>
+             </ul>
+          <script src="script.js"></script>
+  </div>
+
+
+          <div class="container"> 
+            <br><br><br><br><br><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Innovative Tools</h1>
+            <button class="open-button1" onclick="openForm1()">Learning Tips</button>
+            <div class="chat-popup1" id="myForm1">
+              <form class="form-container1">
+                <h2>Chat Bot for Learning Tips</h2>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+              </form>
+            </div>
+
+            <button class="open-button2" onclick="openForm2()">AI-Guidance</button>
+            <div class="chat-popup2" id="myForm2">
+              <form class="form-container2">
+                <h2>Chat Bot for AI-Guidance</h2>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+              </form>
+            </div>
+            
+            <button class="open-button3" onclick="openForm3()">Virtual Mentorship Programme</button>
+            <div class="chat-popup3" id="myForm3">
+              <form class="form-container3">
+                <h2>Chat Bot for Virtual Mentorship Programme</h2>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+              </form>
+            </div>
+
+            <button class="open-button4" onclick="openForm4()">Interview Demo</button>
+            <div class="chat-popup4" id="myForm4">
+              <form class="form-container4">
+                <h2>Chat Bot for Interview Demo</h2>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm4()">Close</button>
+              </form>
+            </div>
+
+            <button class="open-button5" onclick="openForm5()">Demo Lab</button>
+            <div class="chat-popup5" id="myForm5">
+              <form class="form-container5">
+                <h2>Chat Bot for Demo Lab</h2>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm5()">Close</button>
+              </form>
+            </div>
+            <script>
+            function openForm1() {
+              document.getElementById("myForm1").style.display = "block";
+            }
+            function closeForm1() {
+              document.getElementById("myForm1").style.display = "none";
+            }
+
+            function openForm2() {
+              document.getElementById("myForm2").style.display = "block";
+            }
+            function closeForm2() {
+              document.getElementById("myForm2").style.display = "none";
+            }
+
+            function openForm3() {
+              document.getElementById("myForm3").style.display = "block";
+            }
+            function closeForm3() {
+              document.getElementById("myForm3").style.display = "none";
+            }
+
+            function openForm4() {
+              document.getElementById("myForm4").style.display = "block";
+            }
+            function closeForm4() {
+              document.getElementById("myForm4").style.display = "none";
+            }
+
+            function openForm5() {
+              document.getElementById("myForm5").style.display = "block";
+            }
+            function closeForm5() {
+              document.getElementById("myForm5").style.display = "none";
+            }
+            </script>
+
+
+
+            
+            
+          </body>
+
+          <footer>
+              <section class="footer">
+                <div class="footer-row">
+                  <div class="footer-col">
+                    <h4>Info</h4>
+                    <ul class="links">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Compressions</a></li>
+                      <li><a href="#">Customers</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="links">
+                      <li><a href="#">Youth Engagement</a></li>
+                      <li><a href="#">Tech Integration</a></li>
+                      <li><a href="#">Career Pathways</a></li>
+                      <li><a href="#">Community Building</a></li>
+                      <li><a href="#">Resources</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul class="links">
+                      <li><a href="#">Customer Agreement</a></li>
+                      <li><a href="#">Customer Service</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Subscribe Us!</h4>
+                    <p>
+                      Subscribe to Youthdify to get our latest programmes, events and exclusive offers.
+                    </p>
+                    <form action="#">
+                      <input type="text" placeholder="Your email" required>
+                      <button type="submit">SUBSCRIBE</button>
+                    </form>
+                    <div class="icons">
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-instagram"></i>
+                      <i class="fa fa-linkedin"></i>
+                      <i class="fa fa-github"></i>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+        </div>           
+      </footer>
+
+</html>
